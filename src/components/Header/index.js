@@ -7,7 +7,7 @@ export default function Header(){
     return(
         <header>
             <Link className='logo' to="/">The Movies</Link>
-            <Link className='favoritos' to="/">Salvos</Link>
+            <Link className='favoritos' to="/favoritos">Salvos</Link>
         </header>
     )
 
